@@ -1,4 +1,4 @@
-package zx.soft.hdfs.wm.output;
+package zx.soft.hdfs.wm.io;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +15,7 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
 /**
+ * Map分片下载类
  * 
  * @author wgybzb
  *

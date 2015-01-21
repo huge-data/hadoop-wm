@@ -1,4 +1,4 @@
-package zx.soft.hdfs.wm.output;
+package zx.soft.hdfs.wm.io;
 
 import java.io.IOException;
 
@@ -7,6 +7,7 @@ import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
+ * 视频文件输出格式
  * 
  * @author wgybzb
  *

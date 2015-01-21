@@ -1,4 +1,4 @@
-package zx.soft.hdfs.wm.input;
+package zx.soft.hdfs.wm.io;
 
 import java.io.IOException;
 
@@ -10,6 +10,7 @@ import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import zx.soft.hdfs.wm.HdfsWaterMarking;
 
 /**
+ * 根读取类
  * 
  * @author wgybzb
  *

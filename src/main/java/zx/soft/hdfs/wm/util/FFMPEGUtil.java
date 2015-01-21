@@ -20,6 +20,7 @@ import org.apache.hadoop.fs.Path;
 import com.google.common.io.ByteStreams;
 
 /**
+ * FFMPEG工具类
  * 
  * @author wgybzb
  *

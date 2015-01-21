@@ -1,4 +1,4 @@
-package zx.soft.hdfs.wm.input;
+package zx.soft.hdfs.wm.io;
 
 import java.io.IOException;
 
@@ -12,6 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 /**
+ * 视频文件输入格式
  * 
  * @author wgybzb
  *

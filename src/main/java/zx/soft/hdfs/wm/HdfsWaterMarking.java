@@ -12,14 +12,15 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import zx.soft.hdfs.wm.input.SplitUploader;
-import zx.soft.hdfs.wm.input.VideoFileInputFormat;
+import zx.soft.hdfs.wm.io.SplitUploader;
+import zx.soft.hdfs.wm.io.VideoFileInputFormat;
+import zx.soft.hdfs.wm.io.VideoFileOutputFormat;
 import zx.soft.hdfs.wm.mapred.WaterMarkingMapper;
 import zx.soft.hdfs.wm.mapred.WaterMarkingReducer;
-import zx.soft.hdfs.wm.output.VideoFileOutputFormat;
 import zx.soft.hdfs.wm.util.FFMPEGUtil;
 
 /**
+ * 视频水印作业
  * 
  * @author wgybzb
  *

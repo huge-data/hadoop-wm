@@ -1,4 +1,4 @@
-package zx.soft.hdfs.wm.input;
+package zx.soft.hdfs.wm.io;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +11,7 @@ import org.apache.hadoop.conf.Configuration;
 import zx.soft.hdfs.wm.util.FFMPEGUtil;
 
 /**
+ * 分片上传类
  * 
  * @author wgybzb
  *

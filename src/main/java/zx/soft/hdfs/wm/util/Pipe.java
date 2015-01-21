@@ -3,6 +3,7 @@ package zx.soft.hdfs.wm.util;
 import java.util.UUID;
 
 /**
+ * 管道
  * 
  * @author wgybzb
  *

@@ -11,6 +11,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import zx.soft.hdfs.wm.util.FFMPEGUtil;
 
 /**
+ * 水印Mapper
  * 
  * @author wgybzb
  *

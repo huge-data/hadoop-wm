@@ -11,10 +11,11 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import zx.soft.hdfs.wm.output.MappedSplitDownloader;
+import zx.soft.hdfs.wm.io.MappedSplitDownloader;
 import zx.soft.hdfs.wm.util.FFMPEGUtil;
 
 /**
+ * 水印Reducer
  * 
  * @author wgybzb
  *
